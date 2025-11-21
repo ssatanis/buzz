@@ -218,7 +218,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
-            className="relative h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px]"
+            className="relative h-[300px] sm:h-[400px] md:h-[500px] lg:h-[600px] mt-8 sm:mt-0"
           >
             <AnimatedBee />
           </motion.div>

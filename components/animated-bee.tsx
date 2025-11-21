@@ -20,7 +20,7 @@ export function AnimatedBee() {
       >
         {/* Bee SVG with glass morphism effect */}
         <motion.div
-          className="relative w-[400px] h-[400px]"
+          className="relative w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px]"
           style={{
             perspective: "1000px",
             transformStyle: "preserve-3d",
